@@ -32,3 +32,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+linage-terraform-ecs-project.code-workspace
+linage-terraform-ecs-project
