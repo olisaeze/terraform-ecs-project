@@ -91,3 +91,14 @@ variable "alternative_names" {
   description = "sub domain name"
   type        = string
 }
+
+# s3 Variables
+variable "env_file_bucket_name" {
+  description = "s3 bicket name"
+  type        = string
+}
+
+variable "env_file_name" {
+  description = "env bucket name"
+  type        = string
+}
