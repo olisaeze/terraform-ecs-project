@@ -35,3 +35,4 @@ terraform.rc
 linage-terraform-ecs-project.code-workspace
 linage-terraform-ecs-project
 rentzone.env
+linage.env
