@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-image: url('YELLOW.jpg');
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  text-align: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 24px;
+}
+
+h1 {
+  text-align: center;
+ 
+ 
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+

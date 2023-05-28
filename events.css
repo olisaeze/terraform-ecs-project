@@ -1,0 +1,50 @@
+body {
+    position: relative;
+    text-align: center;
+    background-color: #a43145;
+    background-image: url('YELLOW.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 90px;
+    font-size: 60px;
+    color: #eeeae7;
+}
+
+form {
+    margin-top: 50px;
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+input[type="text"], input[type="date"], input[type="time"], textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdca0b;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #a8770b;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #c2a216;
+}
+

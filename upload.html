@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File</title>
+    <link rel="stylesheet" type="text/css" href="upload.css">
+</head>
+<body style="background-image: url('YELLOW.jpg');">
+    <h1>Upload File</h1>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="file">Select file to upload:</label>
+        <input type="file" id="file" name="file"><br><br>
+        <label for="name">Enter file name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <input type="submit" value="Upload File">
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>

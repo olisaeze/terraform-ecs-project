@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Event Page</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body style="background-image: url('YELLOW.jpg');">
+
+    <h1>Enter upcoming events</h1>
+
+    <form>
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" name="event-name" required><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        // JavaScript code for validating the form inputs
+        var form = document.querySelector('form');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            var eventName = document.getElementById('event-name').value;
+            var date = document.getElementById('date').value;
+            var time = document.getElementById('time').value;
+            var location = document.getElementById('location').value;
+
+            if (eventName === '') {
+                alert('Please enter the event name');
+                return false;
+            }
+
+            if (date === '') {
+                alert('Please enter the event date');
+                return false;
+            }
+
+            if (time === '') {
+                alert('Please enter the event time');
+                return false;
+            }
+
+            if (location === '') {
+                alert('Please enter the event location');
+                return false;
+            }
+
+            alert('Thank you for submitting your event details!');
+            form.reset();
+        });
+    </script>
+</body>
+</html>
